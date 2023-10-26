@@ -1,7 +1,24 @@
 .App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
+  background-color: black;
+  background-image: url(https://cdn-9.motorsport.com/images/amp/0ZRKplR0/s1200/indycar-indy-500-2023-josef-ne-4.webp);
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100vw;
 }
 
+.background-white{
+  background-color: rgb(255, 255, 255);
+  border-radius: 1em;
+}
+
+.title {
+  width: 6em;
+}
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +52,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
